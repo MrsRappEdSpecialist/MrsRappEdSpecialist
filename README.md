@@ -1,4 +1,14 @@
-Mrs. Rapp, EdSpecialist, Educational Resources 👋
+⭐ - :star:RappStar ⭐ - :star:I believe that every student is a RappStar waiting for the right stage. As a Secondary Education Specialist, I’ve seen firsthand how traditional reports often highlight "poor attention" or "disorganization," while missing a student's true potential and unique strengths.
+
+My resources are intentionally designed using Universal Design for Learning (UDL) principles to:
+
+Remove Barriers: Providing multiple ways for students to engage and show what they know.
+
+Highlight Strengths: Shifting the focus from what a student can't do to what they can achieve.
+
+Empower Educators & Parents: Simple, effective tools that make high-level secondary curriculum accessible to all.
+
+Whether you are a teacher in a busy inclusive classroom or a parent supporting a diverse learner at home, RappStar Resources provides the "backstage pass" to student success. 👋
 
 <!--
 **MrsRappEdSpecialist/MrsRappEdSpecialist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
