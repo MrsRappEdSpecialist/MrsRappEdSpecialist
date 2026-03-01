@@ -73,6 +73,13 @@
     </header>
 
     <div class="hub-container">
+<div id="login-section">
+    <p>Please sign in to see your saved work.</p>
+    <button id="login-btn" style="padding: 10px; background: #4285F4; color: white; border: none; border-radius: 5px; cursor: pointer;">Sign in with Google</button>
+</div>
+
+<div id="student-content" style="display: none;">
+    <h2 id="welcome-msg">Welcome!</h2>
 
         <a href="https://mrsrappedspecialist.github.io/ELA/" class="card ela">
             <h2>📖 English Language Arts (ELA)</h2>
@@ -84,16 +91,52 @@
             <p>Tools for Classroom Engagement & Mangement</p>
         </a>
 
-         <a href="LINK HERE" class="card SpecialEducation">
-            <h2>🌟 Special Education Resources</h2>
-            <p>IEP Resources</p>
-        </a>
+        
+<br>
+    <button id="logout-btn" style="background: #ea4335; color: white; border: none; padding: 5px 10px; cursor: pointer;">Sign Out</button>
+</div>
 
         </div>
 
     <footer style="margin-top: 50px; text-align: center; font-size: 0.8rem; color: #888;">
         <p>Created by Mrs. Rapp, M.S. Education Specialist</p>
     </footer>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js";
+  import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCe8t-wMNrf8vf1S5hYH1fnphjKiK0p2io",
+    authDomain: "mrsrappedspecialist.firebaseapp.com",
+    projectId: "mrsrappedspecialist",
+    storageBucket: "mrsrappedspecialist.firebasestorage.app",
+    messagingSenderId: "994757207680",
+    appId: "1:994757207680:web:0c87278cecf386d48da865"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+
+  const loginSection = document.getElementById('login-section');
+  const studentContent = document.getElementById('student-content');
+  const welcomeMsg = document.getElementById('welcome-msg');
+
+  document.getElementById('login-btn').onclick = () => signInWithPopup(auth, provider);
+  document.getElementById('logout-btn').onclick = () => signOut(auth);
+
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      loginSection.style.display = 'none';
+      studentContent.style.display = 'block';
+      welcomeMsg.innerText = "Welcome, " + user.displayName + "!";
+    } else {
+      loginSection.style.display = 'block';
+      studentContent.style.display = 'none';
+    }
+  });
+</script>
 
 </body>
 </html>
