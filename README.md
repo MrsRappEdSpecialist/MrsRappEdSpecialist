@@ -1,4 +1,4 @@
-## Hi there 👋
+Mrs. Rapp, EdSpecialist, Educational Resources 👋
 
 <!--
 **MrsRappEdSpecialist/MrsRappEdSpecialist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
