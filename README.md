@@ -1,4 +1,6 @@
-⭐ - :star:RappStar ⭐ - :star:I believe that every student is a RappStar waiting for the right stage. As a Secondary Education Specialist, I’ve seen firsthand how traditional reports often highlight "poor attention" or "disorganization," while missing a student's true potential and unique strengths.
+⭐ RappStar ⭐ By Mrs. Rapp, M.S.Ed., Education Specialist
+
+I believe that every student is a RappStar waiting for the right stage. As a Secondary Education Specialist, I’ve seen firsthand how traditional reports often highlight "poor attention" or "disorganization," while missing a student's true potential and unique strengths.
 
 My resources are intentionally designed using Universal Design for Learning (UDL) principles to:
 
